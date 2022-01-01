@@ -29,17 +29,20 @@ button{
     border-radius: 8px;
 }
 
-.header,
-.top,
-.mid,
-.footer{
+body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sub-text,
+.footer-subheading,
 a,
 button{
     color: #e5e7eb;
+}
+
+.header,
+.bottom{
+    border-radius: 15px;
 }
 
 .header{
@@ -76,7 +79,6 @@ button{
 .left{
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
     gap: 18px;
     width: 400px;
 }
@@ -101,9 +103,13 @@ button{
     border-radius: 8px;
 }
 
-/*--------------------*/
+
+.body{
+    color: #1f2937;
+}
+
 .top{
-    background-color: #e5e7eb;
+    background-color: #f9faf8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,8 +120,6 @@ button{
 .body-header{
     font-size: 36px;
     font-weight: 750;
-    color: #1f2937;
-    /*margin-bottom: 50px;*/
 }
 
 .mid{
@@ -135,7 +139,52 @@ button{
 
 .text{
     text-align: center;
-    color: #1f2937;
     margin-top: 8px;
 }
 
+.bottom{
+    font-size: 36px;
+    font-style: italic;
+    padding: 120px 300px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-right: 60px;
+}
+
+
+.footer{
+    background-color: #f9faf8;
+    padding: 100px 200px;
+}
+
+.footer-item{
+    background-color: #3882f7;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-button{
+    border: 3px solid #f9faf8;
+    border-radius: 8px;
+}
+
+.footer-header{
+    font-size: 32px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.footer-subheading{
+    font-size: 24px;
+}
