@@ -97,10 +97,12 @@ button{
 .sym{
     width: 600px;
     height: auto;
+    
 }
 
 .sym img{
     border-radius: 8px;
+    box-shadow: 8px 8px 10px #0b1018;
 }
 
 
